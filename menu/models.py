@@ -4,7 +4,7 @@ from django.db import models
 class Menu_Item(models.Model):
     name = models.CharField(max_length=225)
     price = models.CharField(max_length=225)
-
+    image_url = models.URLField(max_length=225)
 
 
 
